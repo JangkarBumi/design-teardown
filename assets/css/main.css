@@ -12,13 +12,19 @@ header {
 }
 
 
-
-
 .landing-articles {
     grid-column: span 3;
     height: 450px;
     background-color: rgb(104, 104, 104);
+    top:0    
+}
 
+#a29{
+    position: absolute;
+    left: 85%;
+    width: 200px;
+    height: 50px;
+    z-index: 999;
 }
 
 .content-articles {
@@ -33,10 +39,8 @@ header {
     background-color: gray;
 }
 
-.below-articles-side {
+.side {
     grid-column: span 4;
-    height: 620px;
-    background-color: gray;
 }
 
 footer {
@@ -49,4 +53,7 @@ header,
 div,
 footer {
     text-align: center;
+    height: 100px;
+    background-color: rgb(169, 169, 169);
 }
+
