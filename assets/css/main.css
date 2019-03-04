@@ -26,6 +26,16 @@ header {
     left: 30px;
     margin-bottom: 10px;
 }
+
+.author-name1, .article-title1, .hashtages1 {
+    position: relative;
+    top: 130px;
+    left: 30px;
+    margin-bottom: 10px;
+}
+
+
+
 .author-name {
     width: 200px;
     line-height: 60px;
