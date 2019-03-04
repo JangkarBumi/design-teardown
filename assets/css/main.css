@@ -1,0 +1,70 @@
+body {
+    display: grid;
+    grid-template-rows: repeat(12, 1fr);
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 3px;
+}
+
+header {
+    grid-column: span 6;
+}
+
+#a2,
+#a3,
+#a4,
+#a5 {
+    grid-column: span 3;
+}
+
+#a6,
+#a7,
+#a8 {
+    grid-column: span 2;
+}
+
+#a9 {
+    grid-column: span 2;
+}
+
+#a10 {
+    grid-column: span 4;
+}
+
+
+#a11,
+#a12,
+#a13 {
+    grid-column: span 2;
+}
+
+#a14 {
+    grid-column: span 2;
+}
+
+#a15 {
+    grid-column: span 4;
+}
+
+#a16 {
+    grid-column: span 6;
+}
+
+#a17,
+#a18,
+#a19,
+#a20,
+#a21,
+#a22 {
+    grid-column: span 3;
+}
+
+
+
+header,
+div,
+footer {
+    background-color: gray;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
