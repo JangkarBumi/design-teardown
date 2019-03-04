@@ -6,10 +6,7 @@ body {
     font-family: 'Spectral', serif;
 }
 
-body:nth-child(3),
-body:nth-child(4) {
-    height: 550px;
-}
+
 
 header {
     grid-column: span 6;
@@ -21,9 +18,14 @@ header {
 
 .landing-articles {
     grid-column: span 3;
-    height: 500px;
+    height: 450px;
     background-color: rgb(104, 104, 104);
 }
+
+.ptop{
+    padding-top: 50px;
+}
+
 
 .author-name,
 .article-title,
