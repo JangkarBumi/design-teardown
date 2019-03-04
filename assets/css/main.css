@@ -1,12 +1,13 @@
 body {
     display: grid;
-    grid-template-rows: repeat(12, 1fr);
+    grid-template-rows: auto;
     grid-template-columns: repeat(6, 1fr);
     grid-gap: 3px;
 }
 
 header {
     grid-column: span 6;
+   height: 500px;
 }
 
 #a2,
@@ -14,20 +15,24 @@ header {
 #a4,
 #a5 {
     grid-column: span 3;
+    grid-row: span 8;
 }
 
 #a6,
 #a7,
 #a8 {
     grid-column: span 2;
+    grid-row: span 7;
 }
 
 #a9 {
     grid-column: span 2;
+    grid-row: span 7;
 }
 
 #a10 {
     grid-column: span 4;
+    grid-row: span 7;
 }
 
 
@@ -35,14 +40,17 @@ header {
 #a12,
 #a13 {
     grid-column: span 2;
+    grid-row: span 7;
 }
 
 #a14 {
     grid-column: span 2;
+    grid-row: span 7;
 }
 
 #a15 {
     grid-column: span 4;
+    grid-row: span 7;
 }
 
 #a16 {
@@ -57,7 +65,22 @@ header {
 #a22 {
     grid-column: span 3;
 }
+#a23{
+    grid-column: span 6;
+}
 
+#a24,
+#a25,
+ #a26{
+    grid-column: span 2;
+}
+
+#a27 {
+    grid-column: span 2;
+}
+#a28{
+    grid-column: span 4;
+}
 
 
 header,
@@ -65,6 +88,6 @@ div,
 footer {
     background-color: gray;
     text-align: center;
-    height: 50px;
     line-height: 50px;
+    grid-column: span 6;
 }
