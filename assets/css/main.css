@@ -62,14 +62,24 @@ header {
 
 .center {
     position: absolute;
-    top: 120px;
-    right: 35%;
     font-family: 'Spectral', serif;
     font-size: 30px;
     width: 400px;
     font-weight: bold;
     line-height: 50px;
     z-index: 999;
+}
+
+.center:first-child {
+    position: absolute;
+    margin: 0 auto;
+    width: 400px;
+}
+
+.center:nth-child(2) {
+    position: absolute;
+    margin: 0 auto;
+    width: 150px;
 }
 
 .content-articles {
