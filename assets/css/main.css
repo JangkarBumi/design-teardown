@@ -7,87 +7,46 @@ body {
 
 header {
     grid-column: span 6;
-   height: 500px;
+    height: 100px;
+    background-color: rgb(169, 169, 169);
 }
 
-#a2,
-#a3,
-#a4,
-#a5 {
+
+
+
+.landing-articles {
     grid-column: span 3;
-    grid-row: span 8;
+    height: 450px;
+    background-color: rgb(104, 104, 104);
+
 }
 
-#a6,
-#a7,
-#a8 {
+.content-articles {
     grid-column: span 2;
-    grid-row: span 7;
+    height: 500px;
+    background-color: gray;
 }
 
-#a9 {
+.below-articles {
     grid-column: span 2;
-    grid-row: span 7;
+    height: 620px;
+    background-color: gray;
 }
 
-#a10 {
+.below-articles-side {
     grid-column: span 4;
-    grid-row: span 7;
+    height: 620px;
+    background-color: gray;
 }
 
-
-#a11,
-#a12,
-#a13 {
-    grid-column: span 2;
-    grid-row: span 7;
-}
-
-#a14 {
-    grid-column: span 2;
-    grid-row: span 7;
-}
-
-#a15 {
-    grid-column: span 4;
-    grid-row: span 7;
-}
-
-#a16 {
+footer {
     grid-column: span 6;
-}
-
-#a17,
-#a18,
-#a19,
-#a20,
-#a21,
-#a22 {
-    grid-column: span 3;
-}
-#a23{
-    grid-column: span 6;
-}
-
-#a24,
-#a25,
- #a26{
-    grid-column: span 2;
-}
-
-#a27 {
-    grid-column: span 2;
-}
-#a28{
-    grid-column: span 4;
+    height: 710px;
 }
 
 
 header,
 div,
 footer {
-    background-color: gray;
     text-align: center;
-    line-height: 50px;
-    grid-column: span 6;
 }
