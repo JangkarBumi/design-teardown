@@ -3,6 +3,7 @@ body {
     grid-template-rows: auto;
     grid-template-columns: repeat(6, 1fr);
     grid-gap: 3px;
+
     font-family: 'Spectral', serif;
 }
 
@@ -22,7 +23,7 @@ header {
     background-color: rgb(104, 104, 104);
 }
 
-.ptop{
+.ptop {
     padding-top: 50px;
 }
 
@@ -44,7 +45,6 @@ header {
     line-height: 60px;
     font-weight: bold;
     font-size: 30px;
-
 }
 
 .article-title {
@@ -76,6 +76,7 @@ header {
     grid-column: span 2;
     height: 500px;
     background-color: gray;
+    font-family: 'Roboto', sans-serif;
 }
 
 .below-articles {
