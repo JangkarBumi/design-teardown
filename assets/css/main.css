@@ -6,6 +6,11 @@ body {
     font-family: 'Spectral', serif;
 }
 
+body:nth-child(3),
+body:nth-child(4) {
+    height: 550px;
+}
+
 header {
     grid-column: span 6;
     height: 100px;
@@ -16,23 +21,19 @@ header {
 
 .landing-articles {
     grid-column: span 3;
-    height: 450px;
+    height: 500px;
     background-color: rgb(104, 104, 104);
 }
 
-.author-name, .article-title, .hashtages {
+.author-name,
+.article-title,
+.hashtages {
     position: relative;
-    top: 130px;
+    top: 110px;
     left: 30px;
     margin-bottom: 10px;
 }
 
-.author-name1, .article-title1, .hashtages1 {
-    position: relative;
-    top: 130px;
-    left: 30px;
-    margin-bottom: 10px;
-}
 
 
 
@@ -43,11 +44,13 @@ header {
     font-size: 30px;
 
 }
+
 .article-title {
     width: 300px;
     line-height: 60px;
     font-size: 25px;
 }
+
 .hashtages {
     width: 400px;
     line-height: 40px;
@@ -64,6 +67,7 @@ header {
     width: 400px;
     font-weight: bold;
     line-height: 50px;
+    z-index: 999;
 }
 
 .content-articles {
