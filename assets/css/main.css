@@ -61,22 +61,37 @@ header {
 
 
 .center {
-    width: 30%;
+
+    max-width: 25%;
     position: absolute;
-    top: 110px;
-    right: 35%;
+    top: 140px;
+    right: 38%;
     font-family: 'Spectral', serif;
-    font-size: 28px;
-    font-weight: bold;
-    line-height: 50px;
-    z-index: 999;
-    
+    font-size: 30px;
+    text-align: center;
+
 }
 
-.center p {
-    margin: 0px;
-    padding: 0px;
+
+h1 span {
+    padding: 8px 12px;
+    line-height: 1.5;
+    box-decoration-break: clone;
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+
 }
+
+h1 :nth-child(2) {
+    position: relative;
+    top: 9px;
+    padding-top: 0;
+    z-index: 999;
+    border-top: none;
+}
+
+
 
 
 .content-articles {
