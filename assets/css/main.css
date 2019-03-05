@@ -1,0 +1,148 @@
+body {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 3px;
+
+    font-family: 'Spectral', serif;
+}
+
+
+
+header {
+    grid-column: span 6;
+    height: 100px;
+    background-color: rgb(169, 169, 169);
+}
+
+
+
+.landing-articles {
+    grid-column: span 3;
+    height: 450px;
+    background-color: rgb(104, 104, 104);
+}
+
+.ptop {
+    padding-top: 50px;
+}
+
+
+.author-name,
+.article-title,
+.hashtages {
+    position: relative;
+    top: 110px;
+    left: 30px;
+    margin-bottom: 10px;
+}
+
+
+
+
+.author-name {
+    width: 200px;
+    line-height: 60px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.article-title {
+    width: 300px;
+    line-height: 60px;
+    font-size: 25px;
+}
+
+.hashtages {
+    width: 400px;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+
+.center {
+
+    max-width: 25%;
+    position: absolute;
+    top: 140px;
+    right: 38%;
+    font-family: 'Spectral', serif;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+
+h1 span {
+    padding: 8px 12px;
+    line-height: 1.5;
+    box-decoration-break: clone;
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+
+}
+
+h1 :nth-child(2) {
+    position: relative;
+    top: 9px;
+    padding-top: 0;
+    z-index: 999;
+    border-top: none;
+}
+
+
+
+
+.content-articles {
+    grid-column: span 2;
+    height: 500px;
+    background-color: gray;
+    font-family: 'Roboto', sans-serif;
+}
+
+.below-articles {
+    grid-column: span 2;
+    height: 620px;
+    background-color: gray;
+}
+
+.side {
+    grid-column: span 4;
+}
+
+footer {
+    grid-column: span 6;
+    height: 710px;
+}
+
+
+header,
+div,
+footer {
+    text-align: center;
+    height: 100px;
+    background-color: rgb(169, 169, 169);
+}
+
+
+.importance0 {
+    background-color: #181818;
+    color: white;
+}
+
+.importance1 {
+    background-color: #404040;
+}
+
+.importance2 {
+    background-color: #686868;
+}
+
+.importance3 {
+    background-color: #909090;
+}
+
+.importance4 {
+    background-color: #D0D0D0;
+}
